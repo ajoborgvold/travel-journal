@@ -59,8 +59,8 @@ header {
 .card {
     display: grid;
     grid-template-areas: 
-      'img bottom'
-      'top bottom';
+      'top top'
+      'img bottom';
     align-items: center;
     max-width: 750px;
     margin: 0 auto;
