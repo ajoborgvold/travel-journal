@@ -12,7 +12,7 @@ body {
 /* typography */
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     color: #2B283A;
     margin-top: 0;
 }
@@ -24,7 +24,7 @@ p {
 a,
 .footer__text {
     color: #918E9B;
-    font-size: .75rem;
+    font-size: .7rem;
 }
 
 a:hover,
@@ -47,9 +47,9 @@ header {
     margin-bottom: .75em;
 }
 
-header > p {
+.page-title {
     color: #fff;
-    font-size: 1.125rem;
+    font-size: .75rem;
     text-transform: lowercase;
 }
 
@@ -58,6 +58,7 @@ header > p {
 
 .card {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 2em;
     max-width: 750px;
@@ -71,15 +72,15 @@ header > p {
 }
 
 .card__img {
-    width: 165px;
-    height: 220px;
-    object-fit: cover;
-    border-radius: .3em;
-    box-shadow: 0 0 .5em #E5E5E5;
+  width: 165px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: .3em;
+  box-shadow: 0 0 .5em #E5E5E5;
 }
 
 .card__top {
-    font-size: .8rem;
+    font-size: .7rem;
     display: flex;
     align-items: center;
     gap: .5em;
@@ -96,13 +97,13 @@ header > p {
 }
 
 .card__date {
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: 700;
     margin-bottom: 0;
 }
 
 .card__description {
-    font-size: .95rem;
+    font-size: .8rem;
     line-height: 150%;
     margin-top: .5em;
 }
@@ -114,4 +115,27 @@ footer {
   background-color: #F5F5F5;
   text-align: center;
   padding: .5em 0;
+}
+
+
+/* Media queries */
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .page-title {
+    font-size: 1.125rem;
+  }
+
+
+  .card {
+    flex-direction: row;
+  }
+
+  /* .card__img {
+    width: 165px;
+    height: 220px;
+  } */
 }
