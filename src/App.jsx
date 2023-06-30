@@ -13,10 +13,10 @@ function App() {
   })
 
   return (
-    <>
+    <div className='container'>
       <Header />
       {cardElements}
-    </>
+    </div>
   )
 }
 

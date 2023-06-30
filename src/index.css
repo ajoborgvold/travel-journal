@@ -12,6 +12,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.container {
+  height: 100 dvh;
+}
+
 
 /* typography */
 
