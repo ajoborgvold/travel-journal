@@ -1,6 +1,6 @@
-const fujiImg = './assets/mount-fuji.jpg'
-const sydneyImg = './assets/sydney-opera-house.jpg'
-const geirangerfjordImg = './assets/geirangerfjord.jpg'
+const fujiImg = '../assets/mount-fuji.jpg'
+const sydneyImg = '../assets/sydney-opera-house.jpg'
+const geirangerfjordImg = '../assets/geirangerfjord.jpg'
 
 const travelData = [
     {
