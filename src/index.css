@@ -78,6 +78,7 @@ header {
   width: 124px;
   height: 165px;
   object-fit: cover;
+  margin-top: 0;
   border-radius: .3em;
   box-shadow: 0 0 .5em #E5E5E5;
 }
@@ -88,7 +89,7 @@ header {
   display: flex;
   align-items: center;
   gap: .5em;
-  margin-bottom: 0;
+  margin-bottom: .5em;
 }
 
 .fa-location-dot {
