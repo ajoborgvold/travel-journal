@@ -44,7 +44,7 @@ header {
     gap: .5em;
     background-color: #F55A5A;
     color: #fff;
-    margin-bottom: .75em;
+    margin-bottom: 0;
 }
 
 .page-title {
