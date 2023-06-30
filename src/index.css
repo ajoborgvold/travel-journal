@@ -66,11 +66,15 @@ header {
     margin: 0 auto;
     padding: 1.5em;
     /* border-bottom: 1px solid #E5E5E5; */
-    box-shadow: 0 0 .5em #E5E5E5;
+    box-shadow: 0 -0.25em .5em #E5E5E5;
 }
 
+/* .card:first-child {
+  box-shadow: 0 4px 2px -2px #E5E5E5;
+} */
+
 .card:last-child {
-    border-bottom: none;
+  box-shadow: none;
 }
 
 .card__img {
