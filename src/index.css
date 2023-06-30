@@ -142,13 +142,21 @@ footer {
     grid-template-areas: 
       'img top'
       'img bottom';
+    padding: 2em;
   }
 
   .card__img {
+    width: 145px;
+    height: 193px;
     margin-right: 1em;
   }
 
+  .card__top {
+    align-self: end;
+  }
+
   .card__bottom {
+    align-self: start;
     margin-left: 0;
   }
 }
@@ -186,14 +194,8 @@ footer {
   }
 
   .card__top {
-    align-self: end;
     font-size: .8rem;
     gap: .5em;
-  }
-
-  .card__bottom {
-    align-self: start;
-    margin-left: 0;
   }
 
   .card__date {
