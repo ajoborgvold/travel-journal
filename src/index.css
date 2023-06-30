@@ -3,18 +3,10 @@ body {
     margin: 0;
 }
 
-/* body {
-    padding-bottom: 1em;
-} */
-
 * {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-
-/* .container {
-  height: 100 dvh;
-} */
 
 
 /* typography */
