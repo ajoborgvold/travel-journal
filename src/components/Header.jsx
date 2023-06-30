@@ -1,5 +1,8 @@
 export default function Header() {
     return (
-        <h1>Header goes here</h1>
+        <header>
+            <i className="fa-solid fa-earth-americas"></i>
+            <p>my travel journal</p>
+        </header>
     )
 }
