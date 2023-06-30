@@ -55,11 +55,11 @@ header > p {
     max-width: 750px;
     margin: 0 auto;
     padding: 1.5em 2.5em;
-    /* border-bottom: 1px solid #E5E5E5; */
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .card:last-child {
-    border-bottom: unset;
+    border-bottom: none;
 }
 
 .card__img {
