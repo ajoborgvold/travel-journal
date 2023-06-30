@@ -1,4 +1,110 @@
-:root {
+html,
+body {
+    margin: 0;
+}
+
+body {
+    padding-bottom: 1em;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* typography */
+
+h1 {
+    font-size: 1.5rem;
+    color: #2B283A;
+    margin-top: 0;
+}
+
+p {
+    color: #2B283A;
+}
+
+a {
+    color: #918E9B;
+    font-size: .75rem;
+}
+
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    background-color: #F55A5A;
+    color: #fff;
+    margin-bottom: 1.5em;
+}
+
+header > p {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: lowercase;
+}
+
+
+/* card */
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 1.5em 2.5em;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.card:last-child {
+    border-bottom: unset;
+}
+
+.card__img {
+    width: 165px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: .3em;
+}
+
+.card__top {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    margin-bottom: 0;
+}
+
+.fa-location-dot {
+    color: #F55A5A;
+    margin: 0;
+}
+
+.card__location {
+    text-transform: uppercase;
+}
+
+.card__date {
+    font-size: .8rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.card__description {
+    font-size: .95rem;
+    line-height: 150%;
+    margin-top: .5em;
+}
+
+
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +172,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
