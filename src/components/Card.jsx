@@ -2,7 +2,7 @@ export default function Card(props) {
     const { imageUrl, alt, location, googleMapsUrl, title, startDate, endDate, description } = props.item
     
     return (
-        <main className="card">
+        <div className="card">
             <img src={imageUrl} className="card__img" alt={alt}/>
             <div className="card-wrapper">
                 <div className="card__top">
@@ -19,6 +19,6 @@ export default function Card(props) {
                 <p className="card__date">{startDate} - {endDate}</p>
                 <p className="card__description">{description}</p>
             </div>
-        </main>
+        </div>
     )
 }
