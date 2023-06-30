@@ -94,7 +94,7 @@ header {
   font-size: .7rem;
   display: flex;
   align-items: center;
-  gap: .5em;
+  gap: .75em;
   margin-bottom: .5em;
 }
 
@@ -150,8 +150,6 @@ footer {
     font-size: .75rem;
   }
 
-
-
   .card {
     grid-template-areas: 
       'img top'
@@ -173,6 +171,7 @@ footer {
   .card__top {
     align-self: end;
     font-size: .8rem;
+    gap: .5em;
   }
 
   .card__bottom {
