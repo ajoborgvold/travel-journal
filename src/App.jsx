@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <img src={travelData[0].imageUrl} />
+      <img src='./assets/geirangerfjord.jpg' />
     </>
   )
 }
