@@ -16,7 +16,9 @@ function App() {
   return (
     <div className='container'>
       <Header />
-      {cardElements}
+      <>
+        {cardElements}
+      </>
       <Footer />
     </div>
   )
