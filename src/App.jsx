@@ -1,7 +1,6 @@
 import Card from './components/Card'
 import Header from './components/Header'
 import { travelData } from './data/travelData'
-import geirangerfjordImg from './assets/geirangerfjord.jpg'
 
 function App() {
   const cardElements = travelData.map(item => {
@@ -16,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <img src={geirangerfjordImg} />
+      {cardElements}
     </>
   )
 }
