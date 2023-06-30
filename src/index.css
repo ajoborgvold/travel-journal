@@ -136,6 +136,14 @@ footer {
 
 /* Media queries */
 
+@media (min-width: 480px) {
+  .card {
+    grid-template-areas: 
+      'img top'
+      'img bottom';
+  }
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 1.5rem;
