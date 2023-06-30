@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      {cardElements}
+      <img src={travelData[0].imageUrl} />
     </>
   )
 }
