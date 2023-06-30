@@ -38,4 +38,4 @@ const travelData = [
     }
 ]
 
-export default travelData
+export { travelData }
